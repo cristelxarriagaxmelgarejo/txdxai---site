@@ -1,0 +1,185 @@
+/* General */
+body {
+  background: linear-gradient(to bottom, #0077b6, #00b4d8);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+.main-header {
+  background-color: #005b99;
+  padding: 20px 40px;
+  border-radius: 0 0 10px 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 32px;
+  color: #ffd166;
+}
+
+.header-text p {
+  margin: 5px 0 0;
+  font-style: italic;
+  color: #e0f7fa;
+}
+.hero-section {
+  text-align: center;
+  padding: 80px 20px 60px;
+  background: linear-gradient(to bottom, #0077b6, #0077b6);
+  color: white;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+
+.hero-title {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Secciones */
+section {
+  background: white;
+  color: #333;
+  margin: 30px auto;
+  padding: 30px 25px;
+  border-radius: 15px;
+  max-width: 1000px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.alt-section {
+  background-color: #f8fbff;
+}
+
+/* Títulos */
+h2 {
+  color: #023e8a;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  border-left: 5px solid #ffd166;
+  padding-left: 12px;
+}
+
+/* Agentes */
+.agent {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin: 30px 0;
+  background: #f1f9ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.agent:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.agent-img {
+  width: 180px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  background: transparent;
+  box-shadow: none;
+}
+
+.agent-info {
+  flex: 1;
+}
+
+.agent-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.agent-info ul li {
+  font-size: 16px;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+/* Beneficios y listas similares */
+.benefits-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.benefits-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Footer contacto */
+.contact-footer {
+  background-color: #f0f0f0;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px 20px;
+  color: #333;
+}
+
+.contact-footer h2 {
+  color: #0077b6;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-footer p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-footer i {
+  color: #0077b6;
+  margin-right: 8px;
+}
+
+.contact-footer a {
+  color: #ff6f00;
+  text-decoration: none;
+}
+
+.contact-footer a:hover {
+  text-decoration: underline;
+}
