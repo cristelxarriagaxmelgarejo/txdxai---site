@@ -159,7 +159,9 @@ h2 {
   padding: 30px;
   text-align: center;
   border-radius: 10px;
-  margin: 40px 20px;
+  margin: 40px auto;         /* centrado horizontalmente */
+  max-width: 1000px;         /* igual al ancho de tus secciones principales */
+  position: relative;        /* clave para posicionar elementos hijos como .demo-box */
   color: #333;
 }
 
@@ -253,20 +255,19 @@ h2 {
   vertical-align: middle;
 }
 .demo-box {
-  position: fixed;
+  position: absolute; /* Cambiado de fixed a absolute */
   bottom: 30px;
-  right: 30px;
+  right: 0; /* Alineado al borde derecho del contenedor padre */
   background-color: #ffffff;
   color: #0077b6;
   padding: 15px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  max-width: 250px;
+  width: 260px; /* ancho fijo para mayor control */
   text-align: center;
   font-size: 16px;
   z-index: 1000;
 }
-
 .whatsapp-button {
   display: inline-flex;
   align-items: center;
