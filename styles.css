@@ -165,7 +165,6 @@ h2 {
   color: #333;
 }
 
-
 .contact-footer h2 {
   color: #0077b6;
   font-size: 24px;
@@ -255,16 +254,20 @@ h2 {
   margin-right: 8px;
   vertical-align: middle;
 }.demo-box {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
   background-color: #ffffff;
   color: #0077b6;
   padding: 15px 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   max-width: 250px;
   text-align: center;
   font-size: 16px;
-  margin-left: auto;
+  z-index: 1000;
 }
+
 
 .whatsapp-button {
   display: inline-flex;
