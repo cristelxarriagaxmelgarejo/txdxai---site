@@ -240,3 +240,12 @@ h2 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* Iconos en el menú desplegable de agentes */
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
