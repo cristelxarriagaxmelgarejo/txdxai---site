@@ -111,8 +111,9 @@ h2 {
   height: auto;
   object-fit: contain;
   border-radius: 10px;
-  background: transparent;
-  box-shadow: none;
+  background: white; /* Fondo blanco */
+  padding: 10px;      /* Espacio interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Sombra suave opcional */
 }
 
 .agent-info {
