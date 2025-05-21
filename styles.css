@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* General */
 body {
   background: linear-gradient(to bottom, #0077b6, #00b4d8);
